@@ -10,13 +10,9 @@ git remote add origin git@github.com:MikeYeromenko/test-task.git
 ```
 - pull repo:
 ```
-git pull
+git pull origin master
 ```
-- create virtual env
-```
-poetry init
-```
-- add dependencies
+- create virtual env and add dependencies
 ```
 poetry install
 ```
